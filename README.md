@@ -24,6 +24,8 @@ Database table which are used for Hospital Management Project
 Here,  
 === Table Creation SQL ===
 
+CREATE DATABASE HOSPITALMANAGEMNET;
+
 CREATE TABLE patients (
   id MEDIUMINT(8) NOT NULL AUTO_INCREMENT,
   NAME VARCHAR(100) NOT NULL,
