@@ -10,7 +10,7 @@ public class DatabaseService {
     private static Connection createConn() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/HospitalMangement", "root", "OMKARm*@46!");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/HospitalMangement", "root", "root");
 
         System.out.println("Database connection created successfully.");
 
